@@ -1,0 +1,77 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/style.css")
+        //- font-awesome
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        title Document
+    body 
+        header.header
+            .container.header-container
+                nav.header-nav 
+                    a.nav-link(href="#") Find Jobs
+                    a.nav-link(href="#") For Companies
+
+                .regist 
+                    a(href="#").nav-link Sign In
+                    button.header-btn Sign up Free
+
+
+        main 
+            section.hero
+                .container.hero-container 
+                    h1.hero-main-t1 Land a job 
+                    h2.hero-main-t2 the easy way
+
+                    p.hero-main-p The best place to discover & apply to the coolest start up jobs, without the black box. 
+
+                    form(action='/search' method='get').hero-form
+                        input(type='text', name='query', placeholder='Qidiruv')
+                        button(type='submit') Explore -→
+
+            section.new-path
+                .container.path-container
+                    .path-left
+                        h2.path-h2 Your new path to hired.
+                        form(action="/search" method='get').path-form
+                            input(type="text" )
+                            button(type='submit') ×
+                    a(href="#") 
+                        button.start-btn Get started free
+
+                    ul.path.cards 
+                        li.path-list 
+                            img(src="/images/human.svg", alt="").card-img
+                            h3.card-title Apply to humans
+                            p.card-text 72% of applications are never seen by a human! With parallel you skip the line and go direct to the hiring team.
+                        li.path-list 
+                            img(src="/images/massage.svg", alt="").card-img
+                            h3.card-title Instantly stand out
+
+                            p.card-text Showcase your projects, passions and work ethos with Parallel Profile to stand out from the crowd.
+                        li.path-list 
+                            img(src="/images/feed.svg", alt="").card-img
+                            h3.card-title Real time feedback
+
+                            p.card-text Don't get ghosted! Get feedback & notifications with every application, so that you’re never left wondering.
+
+            section.job 
+                .container.job-container 
+                     ul.job.cards 
+                        li.job-list 
+                            .heros
+                                img(src="/images/job-1.svg", alt="").card-img
+                            h3.card-title Apply to humans
+                            p.card-text 72% of applications are never seen by a human! With parallel you skip the line and go direct to the hiring team.
+                        li.job-list 
+                            img(src="/images/massage.svg", alt="").card-img
+                            h3.card-title Instantly stand out
+
+                            p.card-text Showcase your projects, passions and work ethos with Parallel Profile to stand out from the crowd.
+                        li.job-list 
+                            img(src="/images/feed.svg", alt="").card-img
+                            h3.card-title Real time feedback
+
+                            p.card-text Don't get ghosted! Get feedback & notifications with every application, so that you’re never left wondering.

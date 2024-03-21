@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-bottom: 155px;
+  padding-top: 20px;
+}
+
+.header-nav {
+  display: flex;
+  margin: 0 auto;
+  gap: 51px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.regist {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.header-btn {
+  position: relative;
+  padding: 9px 29px;
+  border: 1px solid #0F0F0F;
+  border-radius: 4px;
+  box-shadow: 6px 6px 0px 0px #0F0F0F;
+  cursor: pointer;
+}
+
+.header-btn:active {
+  top: 7px;
+  left: 1px;
+  box-shadow: none;
+}
+
+.hero {
+  background-image: url(/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.hero-main-t1 {
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 6px;
+  letter-spacing: 5.1999998093px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.hero-main-t2 {
+  font-size: 130px;
+  font-weight: 400;
+  letter-spacing: 5.1999998093px;
+  text-align: right;
+}
+
+.hero-main-t2::after {
+  content: " ";
+}
+
+.hero-main-p {
+  width: 639px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.hero-form {
+  display: flex;
+  width: 660px;
+  margin: 0 auto;
+  padding-bottom: 116px;
+}
+.hero-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #0F0F0F;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+.hero-form button {
+  padding: 10px 55px;
+  background-color: #ffd700;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #0F0F0F;
+  border-radius: 4px;
+}
+
+.new-path {
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.path-h2 {
+  width: 480px;
+  padding-top: 10vw;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 67.2px;
+  letter-spacing: 2.2400000095px;
+  text-align: left;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.path-form {
+  display: flex;
+  width: 660px;
+  margin-left: auto;
+  margin-top: -138px;
+  padding-bottom: 116px;
+}
+.path-form input {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #EAFA35;
+  outline: none;
+  height: 35px;
+  border: 0px solid #0F0F0F;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.path-form button {
+  background-color: #EAFA35;
+  border: 1px solid transparent;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 35px;
+  width: 40px;
+  font-size: 20px;
+  border-left: #000000;
+}
+
+.start-btn {
+  background-color: #EAFA35;
+  border: 1px solid #0F0F0F;
+  border-radius: 4px;
+  padding: 10px 36px;
+  margin-left: 910px;
+  cursor: pointer;
+  margin-bottom: 72px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.path.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 158px;
+}
+
+.path-list {
+  padding: 15px;
+  border-radius: 10px;
+  transition: all ease 0.3s;
+}
+
+.path-list:hover {
+  box-shadow: rgba(196, 191, 191, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: all ease 0.3s;
+}
+
+.card-img {
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.7200000286px;
+  text-align: left;
+  color: white;
+  margin-bottom: 36px;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  width: 306px;
+}
+
+/*# sourceMappingURL=style.css.map */
