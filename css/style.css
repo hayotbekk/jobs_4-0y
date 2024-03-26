@@ -137,6 +137,10 @@ ul {
   background-repeat: no-repeat;
 }
 
+.path-container {
+  margin-bottom: 137px;
+}
+
 .path-h2 {
   width: 480px;
   padding-top: 10vw;
@@ -229,6 +233,56 @@ ul {
   text-align: left;
   color: white;
   width: 306px;
+}
+
+.job-title {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 36.86px;
+  letter-spacing: 1.1399999857px;
+  text-align: left;
+}
+
+.job-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-list {
+  border: 1px solid #0F0F0F;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card-img {
+  width: 42px;
+  height: 42px;
+}
+
+.job-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.4px;
+  letter-spacing: 0.6000000238px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 36px;
+}
+
+.job-list p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  width: 306px;
+  margin-bottom: 30px;
+}
+
+.job-cards-btn {
+  margin-bottom: 30px;
+  padding: 10px 66px;
 }
 
 /*# sourceMappingURL=style.css.map */
